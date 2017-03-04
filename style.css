@@ -17,4 +17,8 @@ p {
       border: 3px solid orange;
       padding: 10px;
 }
-.
+.bodytext {
+      margin: auto;
+      width: 20%;
+      padding: 5px;
+}
