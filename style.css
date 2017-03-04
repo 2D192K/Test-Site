@@ -23,6 +23,8 @@ p {
       padding: 5px;
 }
 .button {
+      text-decoration: none;
+      font-family: "arial", sans-serif;
       background-color: blue;
       color: white;
       border: orange;
