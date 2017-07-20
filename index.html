@@ -8,10 +8,16 @@
   <body>
     <h1 id="header"> Hello! </h1>
     <div class="info">
-      <p>
+      <p id="what">
         This site is a test project to practise using HTML and CSS. Any content on here is not to be taken seriously and is subject to regular change.
       </p>
-      <script src="yeet.js"></script>
+      <script>
+        function yeet()
+        {
+        document.getElementById('what').innerHTML = "YEET";
+        }
+      </script>
+      <button type="button" onclick="yeet()"> Click this </button>
     </div>
     <div class="meatandpotatoes">
       <p>
