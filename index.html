@@ -2,17 +2,21 @@
   <title>sik meme zone!!</title>
   <head>
   <script>
-    function changeText()
+    function changeTextTo()
    {
         document.getElementById("header").innerHTML = "Y E E T";
    }
+    function changeTextBack()
+    {
+        document.getElementById("header").innerHTML = "Hello!";
+    }
   </script>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <h1 id="header"> Hello! </h1>
     <div style="text-align: center">
-    <a href="#" class="button" onclick="changeText()">yeems</a>
+    <a href="#" class="button" onmouseover="changeText()" onmouseout="changeTextBack()">yeems</a>
     </div>
     <div class="info">
       <p>
